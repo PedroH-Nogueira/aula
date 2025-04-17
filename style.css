@@ -1,0 +1,105 @@
+/* 1. Seletor de elemento: Estiliza todos os parágrafos */
+p {
+    color: #333; /* Define a cor do texto */
+    font-size: 16px; /* Define o tamanho da fonte */
+    line-height: 1.5; /* Espaçamento entre linhas */
+  }
+  
+  /* 2. Seletor de ID: Estiliza o elemento com id="tela" */
+  #tela {
+    background-color: black; /* Cor de fundo */
+    color: limegreen; /* Cor do texto */
+    padding: 10px; /* Espaço interno */
+    font-size: 24px;
+    text-align: right; /* Alinha o texto à direita */
+  }
+  
+  /* 3. Seletor de classe: Estiliza elementos com a classe "calculadora" */
+  .calculadora {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px; /* Arredonda os cantos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4); /* Sombra ao redor */
+    color: white;
+  }
+  
+  /* 4. Estilizando um link */
+  a {
+    color: blue;
+    text-decoration: none; /* Remove o sublinhado */
+  }
+  
+  a:hover {
+    color: red; /* Quando o mouse passa por cima */
+    text-decoration: underline;
+  }
+  
+  /* 5. Lista não ordenada */
+  ul {
+    list-style-type: square; /* Tipo de marcador: quadrado */
+    margin-left: 20px;
+  }
+  
+  /* 6. Lista ordenada */
+  ol {
+    list-style-type: decimal-leading-zero; /* Numeração com zero na frente */
+  }
+  
+  /* 7. Imagem */
+  img {
+    border: 2px solid #ccc; /* Borda ao redor da imagem */
+    border-radius: 8px; /* Cantos arredondados */
+  }
+  
+  /* 8. Tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Remove espaçamento entre bordas */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc; /* Borda de cada célula */
+  }
+  
+  /* 9. Formulário */
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
+  /* 10. Botão do formulário */
+  input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  /* 11. DIV com estilo personalizado */
+  div {
+    margin-top: 20px;
+  }
+  
+  /* 12. Responsividade (media query) */
+  @media (max-width: 600px) {
+    body {
+      background-color: #eee; /* Muda a cor de fundo em telas pequenas */
+      font-size: 14px; /* Reduz tamanho da fonte */
+    }
+  }
+  
+  /* 13. Comentário em CSS: não é visível na página, só no código */
+  
